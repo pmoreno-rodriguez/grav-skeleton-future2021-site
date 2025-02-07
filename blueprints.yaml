@@ -1,0 +1,14 @@
+name: Future 2021 Site
+version: 1.0.0
+description: "The **Future2021 Skeleton** based on Future2021 theme that provides you with sample blog content and plugins including: **Archives**, **Readingtime**, **Related Pages**, **Pagination**, **Breadcrumbs** and **Taxonomy List**."
+icon: comments
+author:
+  name: Pedro Moreno
+  email: pmoreno@pmdesign.dev
+  url: https://pmdesign.dev
+homepage: https://github.com/pmoreno-rodriguez/grav-skeleton-future2021-site
+demo: https://future2021.pmdesign.dev
+keywords: blog, future2021, skeleton, readingtime, pagination, breadcrumbs, taxonomy, archives, relatedpages
+bugs: https://github.com/pmoreno-rodriguez/grav-skeleton-future2021-site/issues
+readme: https://github.com/pmoreno-rodriguez/grav-skeleton-future2021-site/blob/main/README.md
+license: MIT
