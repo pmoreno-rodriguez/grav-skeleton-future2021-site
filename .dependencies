@@ -54,7 +54,7 @@ git:
   future2021:
     url: https://github.com/pmoreno-rodriguez/grav-theme-future2021
     path: user/themes/future2021
-    branch: develop
+    branch: main
 links:
   archives:
     src: grav-plugin-archives
