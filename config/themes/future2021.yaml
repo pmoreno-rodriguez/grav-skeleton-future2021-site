@@ -26,7 +26,7 @@ social:
 miniposts: true
 miniposts_number: 3
 latestposts: true
-miniposts_category: miniposts
+miniposts_category: minipost
 displaycustommenus:
   enabled: false
 custommenu:
