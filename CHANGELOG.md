@@ -3,6 +3,8 @@
 
 1. [](#improved)
     * Added Form plugin to dependencies
+2. [](#bugfix)
+    * Fixed homepage in `system.yaml`
 
 # v1.0.2
 ## 05/02/2025
