@@ -11,7 +11,7 @@ on:
       version:
         description: 'Which Grav release to use'
         required: true
-        default: '1.7.45'
+        default: '1.7.49.5'
       admin:
         description: 'Create also a package with Admin'
         required: true
@@ -26,7 +26,7 @@ jobs:
       - name: Generate Skeleton Packages
         uses: getgrav/skeleton-builder@v1
         with:
-          version: ${{ github.event.inputs.version || '1.7.45' }}
+          version: ${{ github.event.inputs.version || '1.7.49.5' }}
           admin: ${{ github.event.inputs.admin || true }}
           verbose: true
       - name: Upload packages to release
