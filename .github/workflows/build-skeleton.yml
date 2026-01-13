@@ -1,5 +1,4 @@
 name: Build Skeleton
-
 on:
   release:
     types: [ published ]
@@ -12,12 +11,11 @@ on:
       version:
         description: 'Which Grav release to use'
         required: true
-        default: 'latest'
+        default: '1.7.46'
       admin:
         description: 'Create also a package with Admin'
         required: true
         default: true
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -28,7 +26,7 @@ jobs:
       - name: Generate Skeleton Packages
         uses: getgrav/skeleton-builder@v1
         with:
-          version: ${{ github.event.inputs.version || 'latest' }}
+          version: ${{ github.event.inputs.version || '1.7.46' }}
           admin: ${{ github.event.inputs.admin || true }}
       - name: Upload packages to release
         uses: svenstaro/upload-release-action@v2
